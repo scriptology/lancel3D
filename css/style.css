@@ -1,0 +1,62 @@
+body {
+	margin:0; 
+	padding:0;
+	font-size:12px;
+	line-height:14px;
+	}
+.page {
+	position:relative;
+	overflow:hidden;
+	margin:0; 
+	padding:0;
+	width:768px;
+	height:1024px;
+	background:url("../img/bg_lancel.jpg") no-repeat 0 0;
+    background-size: 768px 1024px;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .page {background-image:url("../img/bg_lancel@2x.jpg");}
+}
+
+
+.control_wrap {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 130px;
+    z-index: 400;
+}
+.control_wrap .more {
+    display: inline-block;
+    margin: 0 auto;
+    width: 534px;
+    height: 114px;
+    background: url("../img/more.png") no-repeat 0 0;
+    background-size: 534px 114px;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .control_wrap .more {background-image:url("../img/more@2x.png");}
+}
+
+/* desc */
+
+
+
+.arow360 {
+    position: absolute;
+    top: 110px;
+    z-index: 350;
+    width: 73px;
+    height: 33px;
+    background: url("../img/arow360.png") no-repeat;
+    background-size: 73px 33px;
+    left: 50%;
+    margin-left: -36px;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .arow360 {background-image:url("../img/arow360@2x.png");}
+}
